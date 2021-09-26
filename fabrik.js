@@ -1,8 +1,8 @@
 const stage = document.getElementById('stage');
 const ctx = stage.getContext('2d');
 
-const width = 800;
-const height = 600;
+const width = 1280;
+const height = 800;
 
 stage.width = width;
 stage.height = height;
