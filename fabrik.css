@@ -1,0 +1,13 @@
+body {
+    background-color: #efefef;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#stage {
+    margin-top: 200px
+}
