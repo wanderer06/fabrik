@@ -117,11 +117,11 @@ function calculate_fabrik_positions()
     // calculate distances
     distances = [];
     for (let i = 0; i < points.length - 1; i++) {
-        distances.push(magnitude(substract(points[i + 1], points[i])));
+        distances.push(distance(points[i + 1], points[i]));
     }
 
     // check distance between root and target
-    const root_distance = magnitude(substract(target, points[0]));
+    const root_distance = distance(target, points[0]);
 
     // check if target is in reach
     let total_distance = distances.reduce((acc, curr) => acc + curr, 0);
